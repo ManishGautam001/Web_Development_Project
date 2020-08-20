@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manish Fitness</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+</head>
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url('image11.jpg');
+        font-family: 'Baloo Bhai 2', cursive;
+        ;
+    }
+
+    .left {
+
+        color: white;
+        position: absolute;
+        left: 50px;
+        top: 0px;
+
+    }
+
+    .mid {
+
+        color: white;
+        width: 626px;
+        margin: auto;
+    }
+
+    .right {
+
+        color: white;
+        position: absolute;
+        right: 40px;
+        top: 34px;
+        display: block;
+        width: 246px;
+        height: 50px;
+    }
+
+    img {
+        width: 220px;
+        height: 120px;
+        filter: invert(100%);
+        margin: -10px;
+        padding: 3px;
+    }
+
+    .navbar {
+        color: white;
+        display: inline block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        margin: 17px 29px;
+        padding: 1px 1px;
+        cursor: pointer;
+        font-size: 21px;
+    }
+
+    .navbar li:hover {
+        color: lightgrey;
+
+    }
+
+    .container1 {
+        border: 2px solid white;
+        position: absolute;
+        right: 110px;
+        top: 240px;
+        height: 491px;
+        width: 500px;
+        border-radius: 20px;
+    }
+
+    h1 {
+        color: white;
+        text-align: center;
+
+    }
+
+    .enter {
+        margin: -12px auto;
+        padding: 5px;
+        width: 360px;
+        height: 23px;
+        border-radius: 8px;
+        text-align: center;
+        display: block;
+
+    }
+
+    .btn {
+        display: block;
+        width: 376px;
+        margin: auto;
+        padding: 17px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: lightgray;
+    }
+
+    .search {
+        margin: 1px;
+        padding: 7px;
+        width: 243px;
+        border-radius: 5px;
+    }
+
+    .footer {
+        color: white;
+        position: absolute;
+        right: 205px;
+        bottom: 25px;
+    }
+</style>
+
+<body>
+    <header class="container">
+        <div class="left">
+            <img src="logo2.jpg" alt="">
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Services</a></li>
+                <li><a>Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <input type="text" class="search" placeholder="Search here">
+        </div>
+    </header>
+    <div class="container1">
+        <h1>Join the best gym</h1>
+        <form action="beckend.php">
+            <input class="enter" type="text" placeholder="Enter your Name"><br>
+            <input class="enter" type="text" placeholder="Enter your Age"><br>
+            <input class="enter" type="text" placeholder="Enter your Gender"><br>
+            <input class="enter" type="text" placeholder="Enter your Locality"><br>
+            <input class="enter" type="text" placeholder="Enter your Phone No"><br>
+            <input class="enter" type="text" placeholder="Enter your Email"><br>
+
+            <button class="btn">Submit</button>
+
+
+
+
+        </form>
+    </div>
+    <div class='footer'>
+        <div class="contact">
+            <a target="_blank" href="https://github.com/ManishGautam001"><i
+                    class="fab fa-github fa-lg contact-icon"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/manish-gautam-a35a78171/"><i
+                    class="fab fa-linkedin fa-lg contact-icon"></i></a>
+        </div>
+        <p class='footer-description'>&copy 2020 &nbsp Developed by Manish Gautam</p>
+    </div>
+
+</body>
+
+</html>
