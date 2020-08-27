@@ -1,5 +1,7 @@
 ![](Website_image.jpg)
 
+For full website please download: website.gif
+
 This is a project regarding development of UI for gym business and this UI contains a form which contains name, gender, locality etc. The use of this project is for gym business where anyone can fill this form and get admission in gym.
 
 Outcome of this project is anyone can fill form and take online admission in gym without any trouble.
