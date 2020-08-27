@@ -10,3 +10,5 @@ The tools used in this project is listed below:
 3. NodeJS (Express) for Backend.
 4. MongoDB for data management.
 5. VS Code as IDE.
+
+The Code related to project is in **project.html** file.
