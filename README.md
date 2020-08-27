@@ -1,3 +1,4 @@
+![](Website_image.jpg)
 
 This is a project regarding development of UI for gym business and this UI contains a form which contains name, gender, locality etc. The use of this project is for gym business where anyone can fill this form and get admission in gym.
 
